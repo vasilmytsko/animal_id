@@ -1,0 +1,91 @@
+
+/*
+================================================================================
+|                                     FOOTER                                   |
+================================================================================
+*/
+footer{
+    position: relative;
+	height: 190px;
+    font-size: 1.4rem;
+    margin-top: -190px;
+    background-color: $bg-color3;
+    padding: 15px;
+    overflow: hidden;
+}
+.menu--white .menu__link{
+    color: #fff;
+}
+.header__help--color .header__help-button{
+    padding: 18px 40px;
+    background-color: $bg-color6;
+    border: none;
+}
+.copi{
+    color: $text-color3;
+    font-size: 1.4rem;
+    margin-top: 90px;
+    }
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+    .header__top--footer{
+        display: block;
+        .header__logo{
+            text-align: center;
+            padding-top: 25px;
+            margin-top: -5px;
+        }
+        .header__help-button--dis{
+            display: block;
+            margin-top: 10px;
+        }  
+    }
+    .header__logo--footer, .assistance--footer{
+        width: 100%;
+    }
+    .assistance{
+        justify-content: center;
+    }
+    .copi{
+        text-align: center;
+    }
+    
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .header__top--footer{
+        display: block;
+        .header__logo{
+            text-align: center;
+            padding-top: 25px;
+            margin-top: -5px;
+        }
+        .header__help-button--dis{
+            display: block;
+            margin-top: 10px;
+        }  
+    }
+    .header__logo--footer, .assistance--footer{
+        width: 100%;
+    }
+    .assistance{
+        justify-content: center;
+    }
+    .copi{
+        text-align: center;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .assistance--footer{
+        display: block;
+        width: 30%;
+        position: absolute;
+        top: 57%;
+        left: 64%;
+    }
+    .header__help-button--dis{
+            display: block;
+        }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    
+}
